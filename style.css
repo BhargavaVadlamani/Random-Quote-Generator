@@ -1,0 +1,48 @@
+body {
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+    background-color: darkslategrey;
+}
+
+#mainDiv {
+    background-color: cadetblue;
+}
+
+#paraDiv {
+    color:azure;
+    font-style: italic;
+    font-size: 18px
+}
+
+#buttonDiv {
+    
+}
+
+#nq {
+    background-color: cadetblue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tweet {
+        background-color: cadetblue;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: bold;
+}
+
+#h1 {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#h3 {
+    padding-right: 10px
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="generateQuote()">
+    <div id='paraDiv'>
+        <p align='center'>Press the <span style='color: black; font-weight: bold'>'New Quote'</span> button to generate new quote or the <span style='color: black; font-weight: bold'>'Tweet'</span> button to tweet the quote.</p>
+    </div>
+    <div id="mainDiv">
+        <h1 id="h1" align='left'></h1>  
+        <h3 id="h3" align='right'></h3>  
+    </div>    
+    <div id="buttonDiv">
+        <center><button id="nq">New Quote</button>
+        <button id="tweet" onclick="tweetQuote()">Tweet</button></center>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <script src="javascript.js"></script>   
+</body>
+</html>
